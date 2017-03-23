@@ -1,37 +1,6 @@
-
-body {
-  background-color: #f2f2f2;
-    font-family: "Lato";
-    font-weight: 300;
-    font-size: 16px;
-    color: #555;
-
-    -webkit-font-smoothing: antialiased;
-    -webkit-overflow-scrolling: touch;
-}
-
-/* Titles */
-h1, h2, h3, h4, h5, h6 {
-    font-family: "Raleway";
-    font-weight: 300;
-    color: #333;
-}
-
 .centered {
     text-align: center;
 }
-
-a {
-    color: #f85c37;
-    word-wrap: break-word;
-
-    -webkit-transition: color 0.1s ease-in, background 0.1s ease-in;
-    -moz-transition: color 0.1s ease-in, background 0.1s ease-in;
-    -ms-transition: color 0.1s ease-in, background 0.1s ease-in;
-    -o-transition: color 0.1s ease-in, background 0.1s ease-in;
-    transition: color 0.1s ease-in, background 0.1s ease-in;
-}
-
  hr {
     display: block;
     height: 1px;
@@ -46,18 +15,9 @@ a {
 	top: 0;
 	left: 0;
 	right: 0;
-	z-index: 10000;
 	overflow: visible;
-	font: normal 16px/24px  'Open Sans', "Helvetica Neue", Helvetica, Arial, sans-serif;
-}
 
-.section-topbar a {
-  color: #fff;
-}
-
-.topbar-inner {
-	background: #111;
-	line-height: 0;
+	background: #111;	
 	text-align: center;
 }
 
@@ -66,43 +26,34 @@ a {
 	position: relative;
 	margin: 0;
 	padding: 0;
-
-	border-right: 1px solid #222;
 }
 
-.section-topbar ul#nav > li {
+.section-topbar ul#nav li {
 	display: block;
     float: left;
     padding: 0;
 }
 
-.headerwrap {
-	background: url(Photo.jpg) no-repeat center top;
+header {
+	background: url(Photo.jpg) no-repeat;
 	margin-top: 60px;
 	padding-top:140px;
 	text-align:center;
 	background-attachment: relative;
-	background-position: center center;
+	background-position: center;
 	min-height: 500px;
 	width: 100%;
-	
-    -webkit-background-size: 100%;
-    -moz-background-size: 100%;
-    -o-background-size: 100%;
-    background-size: 100%;
+	background-size: 100%;
 
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
+   
 }
 
-.headerwrap h1 {
+header h1 {
 	font-size: 80px;
 	color: white;
 }
 
-.headerwrap h3 {
+header h3 {
 	font-size: 20px;
 	color: white;
 }
@@ -138,7 +89,6 @@ footer {
 .smoothScroll {
 	background: white;
 	display: block;
-  font: normal 11px/18px "Helvetica Neue", Helvetica, Arial, sans-serif;
   text-decoration: none;
   padding: 18px 20px 18px 20px;
   border-left: 1px solid #222;
